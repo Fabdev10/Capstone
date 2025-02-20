@@ -59,7 +59,6 @@ export const google = async (req, res, next) => {
   try { const { token } = req.body; 
   if (!token) return res.status(400).json({ message: "Token is required" });
   const decoded = jwtDecode(token);
-  console.log("Decoded Token:", decoded);
   const { email, name, picture } = decoded; 
   if (!email) return res.status(400).json({ message: "Invalid token, email missing" });
   let user = await User.findOne({ email });

@@ -37,8 +37,6 @@ export default function SignIn() {
       });
 
       const data = await res.json();
-      console.log('Login Response:', data);
-
       if (data.success === false) {
         dispatch(signInFailure(data.message));
         toast.error(data.message);
@@ -68,8 +66,7 @@ export default function SignIn() {
       });
   
       const data = await res.json();
-      console.log(data);
-      if (data.success) {
+      if (data) {
         localStorage.setItem('user', JSON.stringify(data));
         dispatch(signInSuccess(data));
         toast.success('User Logged In Successfully with Google!');
