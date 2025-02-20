@@ -1,1 +1,1 @@
-Progetto finale per il corso EPICODE. Trattasi di una Web App costruita con lo stack MERN, incentrato sulla vendita di proprietà immbobiliari. Il progetto utilizza le tecnologie imparate in questi mesi di corso con Epicode ovvero React, Node, Express e Mongo DB.
+Progetto finale per il corso EPICODE. Trattasi di una Web App costruita con lo stack MERN, incentrato sulla vendita di proprietà immobiliari. Il progetto utilizza le tecnologie imparate in questi mesi di corso con Epicode ovvero React, Node, Express e Mongo DB.
